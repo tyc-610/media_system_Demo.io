@@ -1,0 +1,14 @@
+prefix=/home/china/work_station/Demo/lib/ffmpeg
+exec_prefix=${prefix}
+libdir=/home/china/work_station/Demo/lib/ffmpeg/lib
+includedir=/home/china/work_station/Demo/lib/ffmpeg/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 59.39.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -latomic
+Cflags: -I${includedir}

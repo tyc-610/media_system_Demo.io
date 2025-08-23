@@ -1,0 +1,1 @@
+/usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabi/bin/arm-linux-gcc CMakeFiles/main.dir/src/main.c.o CMakeFiles/main.dir/mouse_cursor_icon.c.o -o /home/china/work_station/Demo_backup_20250716_175654/bin/main  -Wl,-rpath,/home/china/work_station/Demo_backup_20250716_175654/lib: /home/china/work_station/Demo_backup_20250716_175654/lib/liblvgl.so.1.0 -lm -lpthread
